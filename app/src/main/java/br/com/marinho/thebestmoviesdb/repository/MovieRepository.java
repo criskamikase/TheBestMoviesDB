@@ -31,7 +31,9 @@ public class MovieRepository {
                 if(response.isSuccessful() && response.body().getResults() != null){
                     ArrayList<Movie> listMovie = new ArrayList<Movie>();
                     for(MovieDTO mDTO : response.body().getResults()){
-                        listMovie.add(new Movie(mDTO));
+                        if(mDTO.getVoteAverage().doubleValue() > 5.0) {
+                            listMovie.add(new Movie(mDTO));
+                        }
                     }
 
                     listener.onSuccessful(listMovie);

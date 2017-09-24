@@ -53,12 +53,16 @@ public class HomeActivity extends AppCompatActivity implements IHomeView{
         if (App.getMovies() != null) {
             fillMovieList(App.getMovies());
         }else {
-            if (DeviceHelper.isNetworkAvailable(App.getContext())) {
-                homePresenter.loadMovie(page);
-            } else {
-                Snackbar.make(parentView, getString(R.string.noNetworOfflinekMsg),
-                        Snackbar.LENGTH_LONG).show();
-            }
+            loadMovie();
+        }
+    }
+
+    private void loadMovie(){
+        if (DeviceHelper.isNetworkAvailable(App.getContext())) {
+            homePresenter.loadMovie(page);
+        } else {
+            Snackbar.make(parentView, getString(R.string.noNetworOfflinekMsg),
+                    Snackbar.LENGTH_LONG).show();
         }
     }
 
@@ -76,7 +80,11 @@ public class HomeActivity extends AppCompatActivity implements IHomeView{
             @Override
             public void onRefresh() {
                 scrollToTop();
-                swipeContainer.setRefreshing(false);
+                swipeContainer.setRefreshing(true);
+                page = HomePresenter.FIRST_PAGE;
+                listMovie = new ArrayList<>();
+                loadMovie();
+                Log.d("SwipeRefresh", "Refreshing");
             }
         });
 
