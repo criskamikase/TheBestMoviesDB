@@ -8,7 +8,7 @@ import android.net.ConnectivityManager;
  */
 
 public class DeviceHelper {
-    public static boolean isNetworkAvaliable(final Context context){
+    public static boolean isNetworkAvailable(final Context context){
         final ConnectivityManager connectivityManager = ((ConnectivityManager)
                 context.getSystemService(Context.CONNECTIVITY_SERVICE));
         return connectivityManager.getActiveNetworkInfo() != null &&

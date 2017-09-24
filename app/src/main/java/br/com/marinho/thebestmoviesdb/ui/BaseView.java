@@ -11,6 +11,4 @@ public interface BaseView {
     void hideProgress();
 
     void showError(String message);
-
-    void showError(String code, String message);
 }

@@ -40,9 +40,9 @@ public class Movie {
         this.originalTitle = md.getOriginalTitle();
         this.originalLanguage = md.getOriginalLanguage();
         this.title = md.getTitle();
-        this.popularity = (double)md.getPopularity();
+        this.popularity = md.getPopularity().doubleValue();
         this.voteCount = md.getVoteCount();
-        this.voteAverage = (double)md.getVoteAverage();
+        this.voteAverage = md.getVoteAverage().doubleValue();
     }
 
     public String getPosterPath() {

@@ -12,6 +12,9 @@ import retrofit2.http.Query;
 
 public interface TheMovieDBApi {
 
-    @GET("/movie/now_playing")
-    Call<MovieResponseDTO<MovieDTO>> listMovies(@Query("api_key") String apiKey);
+    @GET("movie/now_playing")
+    Call<MovieResponseDTO<MovieDTO>> listMovies(@Query("api_key") String apiKey,
+                                                @Query("language") String language,
+                                                @Query("page") int page,
+                                                @Query("region") String region);
 }

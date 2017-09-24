@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">TheBestMoviesDB</string>
+
+    <string name="home_progress_title">Aguarde</string>
+    <string name="home_progress_message">Processando informação...</string>
+    <string name="noNetworOfflinekMsg">Seu aplicativo está rodando em modo off-line.</string>
 </resources>

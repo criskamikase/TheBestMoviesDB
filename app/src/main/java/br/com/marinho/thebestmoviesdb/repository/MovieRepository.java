@@ -20,12 +20,14 @@ import retrofit2.Response;
  */
 
 public class MovieRepository {
-    public void listMovies(final OnAPIListenerResult<ArrayList<Movie>> listener){
+    public void listMovies(int page, final OnAPIListenerResult<ArrayList<Movie>> listener){
         TheMovieDBApi theMovieDBApi = App.getRestClient().createService(TheMovieDBApi.class);
 
-        theMovieDBApi.listMovies(APISettings.API_KEY).enqueue(new Callback<MovieResponseDTO<MovieDTO>>() {
+        theMovieDBApi.listMovies(APISettings.API_KEY, APISettings.API_LANGUAGE_KEY, page,
+                APISettings.API_REGION_KEY).enqueue(new Callback<MovieResponseDTO<MovieDTO>>() {
             @Override
-            public void onResponse(Call<MovieResponseDTO<MovieDTO>> call, Response<MovieResponseDTO<MovieDTO>> response) {
+            public void onResponse(Call<MovieResponseDTO<MovieDTO>> call,
+                                   Response<MovieResponseDTO<MovieDTO>> response) {
                 if(response.isSuccessful() && response.body().getResults() != null){
                     ArrayList<Movie> listMovie = new ArrayList<Movie>();
                     for(MovieDTO mDTO : response.body().getResults()){
