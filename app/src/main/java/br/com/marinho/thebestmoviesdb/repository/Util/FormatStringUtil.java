@@ -19,6 +19,10 @@ public class FormatStringUtil {
     }
 
     public static String formatYearMovie(String date){
-        return date.substring(0, 4);
+        if(date.length() >= 4) {
+            return date.substring(0, 4);
+        }
+
+        return date;
     }
 }

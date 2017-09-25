@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="wrap_content">
@@ -19,4 +19,15 @@
 
     </android.support.design.widget.AppBarLayout>
 
-</LinearLayout>
+    <Button
+        android:id="@+id/btnArrow"
+        android:layout_width="50dp"
+        android:layout_height="?attr/actionBarSize"
+        android:drawableRight="@drawable/ic_arrow_back"
+        android:background="@color/icons_text"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_weight="1"
+        android:visibility="invisible"
+        />
+
+</RelativeLayout>

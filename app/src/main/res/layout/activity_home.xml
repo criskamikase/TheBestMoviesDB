@@ -8,14 +8,14 @@
     tools:context="br.com.marinho.thebestmoviesdb.ui.home.HomeActivity">
 
     <include layout="@layout/custom_toolbar"
-        android:id="@+id/appBarLayout"></include>
+        android:id="@+id/custom_toolbar_Layout"></include>
 
     <android.support.v4.widget.SwipeRefreshLayout
         android:id="@+id/swipeContainer"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:visibility="visible"
-        android:layout_below="@+id/appBarLayout">
+        android:layout_below="@+id/custom_toolbar_Layout">
 
         <android.support.v7.widget.RecyclerView
             android:id="@+id/recyclerMovie"

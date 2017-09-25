@@ -6,4 +6,6 @@ package br.com.marinho.thebestmoviesdb.ui.home.interfaces;
 
 public interface IHomePresenter {
     void loadMovie(final int page);
+
+    void searchMovie(final String query, final int page);
 }

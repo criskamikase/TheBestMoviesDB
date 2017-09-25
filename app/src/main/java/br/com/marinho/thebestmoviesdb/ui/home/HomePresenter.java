@@ -51,6 +51,31 @@ public class HomePresenter implements IHomePresenter{
                 _view.hideProgress();
             }
         });
+    }
 
+    @Override
+    public void searchMovie(String query, int page) {
+        if(page == FIRST_PAGE){
+            _view.showProgress();
+        }
+        new MovieRepository().searchMovie(query, page, new OnAPIListenerResult<ArrayList<Movie>>() {
+            @Override
+            public void onSuccessful(ArrayList<Movie> value) {
+                _view.loadMovies(value);
+                _view.hideProgress();
+            }
+
+            @Override
+            public void onUnsuccessful(String errorMsg) {
+                _view.showError( errorMsg );
+                _view.hideProgress();
+            }
+
+            @Override
+            public void onUnexpectedError(String errorMsg) {
+                _view.showError( errorMsg );
+                _view.hideProgress();
+            }
+        });
     }
 }

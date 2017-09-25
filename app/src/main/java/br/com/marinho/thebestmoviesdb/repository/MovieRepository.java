@@ -53,6 +53,31 @@ public class MovieRepository {
         });
     }
 
+    public void searchMovie(String query, int page, final OnAPIListenerResult<ArrayList<Movie>> listener){
+        TheMovieDBApi theMovieDBApi = App.getRestClient().createService(TheMovieDBApi.class);
+
+        theMovieDBApi.searchMovies(APISettings.API_KEY, APISettings.API_LANGUAGE_KEY, query, page, false).enqueue(new Callback<MovieResponseDTO<MovieDTO>>() {
+            @Override
+            public void onResponse(Call<MovieResponseDTO<MovieDTO>> call, Response<MovieResponseDTO<MovieDTO>> response) {
+                if(response.isSuccessful() && response.body().getResults() != null){
+                    ArrayList<Movie> listMovie = new ArrayList<Movie>();
+                    for(MovieDTO mDTO : response.body().getResults()){
+                        listMovie.add(new Movie(mDTO));
+                    }
+
+                    listener.onSuccessful(listMovie);
+                }else{
+                    listener.onUnsuccessful(ErrorHelper.getError(response.errorBody()));
+                }
+            }
+
+            @Override
+            public void onFailure(Call<MovieResponseDTO<MovieDTO>> call, Throwable t) {
+                listener.onUnexpectedError(t.getLocalizedMessage());
+            }
+        });
+    }
+
     public void getDetailMovie(int movieId, final OnAPIListenerResult<MovieDetailed> listener){
         TheMovieDBApi theMovieDBApi = App.getRestClient().createService(TheMovieDBApi.class);
         theMovieDBApi.getMovieDetail(movieId, APISettings.API_KEY,

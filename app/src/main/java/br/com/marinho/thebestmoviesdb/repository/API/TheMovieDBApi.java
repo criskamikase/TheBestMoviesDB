@@ -27,4 +27,11 @@ public interface TheMovieDBApi {
                    @Query("language") String language,
                    @Query("append_to_response") String append);
 
+    @GET("search/movie")
+    Call<MovieResponseDTO<MovieDTO>> searchMovies(@Query("api_key") String apiKey,
+                                                  @Query("language") String language,
+                                                  @Query("query") String search,
+                                                  @Query("page") int page,
+                                                  @Query("include_adult") boolean adult);
+
 }
