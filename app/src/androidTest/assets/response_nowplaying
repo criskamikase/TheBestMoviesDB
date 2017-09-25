@@ -1,0 +1,402 @@
+{
+  "results": [
+    {
+      "vote_count": 1099,
+      "id": 346364,
+      "video": false,
+      "vote_average": 7.5,
+      "title": "It: A Coisa",
+      "popularity": 654.894946,
+      "poster_path": "\/uYxz0lIiNgErrPhQbSjUdwYxtFc.jpg",
+      "original_language": "en",
+      "original_title": "It",
+      "genre_ids": [
+        12,
+        18,
+        27
+      ],
+      "backdrop_path": "\/tcheoA2nPATCm2vvXw2hVQoaEFD.jpg",
+      "adult": false,
+      "overview": "Quando as crianças começam a desaparecer na cidade de Derry, no Maine, as crianças do bairro se unem para atacar Pennywise, um palhaço malvado, cuja história de assassinato e violência remonta há séculos.",
+      "release_date": "2017-09-07"
+    },
+    {
+      "vote_count": 669,
+      "id": 390043,
+      "video": false,
+      "vote_average": 6.6,
+      "title": "Dupla Explosiva",
+      "popularity": 244.44304,
+      "poster_path": "\/mbgdiugQO16XNTDA1769kUWvl2v.jpg",
+      "original_language": "en",
+      "original_title": "The Hitman's Bodyguard",
+      "genre_ids": [
+        28,
+        35
+      ],
+      "backdrop_path": "\/7KsqfXDECZMryX1Rv4RKsT7SIjQ.jpg",
+      "adult": false,
+      "overview": "O principal guarda-costas do mundo possui um novo cliente: um assassino de aluguel que precisa testemunhar na Corte Internacional de Justiça. Por anos eles estavam em lados opostos de um tiro, mas agora eles estão presos juntos. Eles precisam colocar as diferenças de lado para chegarem ao julgamento a tempo.",
+      "release_date": "2017-08-31"
+    },
+    {
+      "vote_count": 938,
+      "id": 396422,
+      "video": false,
+      "vote_average": 6.4,
+      "title": "Annabelle 2: A Criação do Mal",
+      "popularity": 205.817386,
+      "poster_path": "\/AtlcH0f8mEQGKVIBSgV4GgkTZMr.jpg",
+      "original_language": "en",
+      "original_title": "Annabelle: Creation",
+      "genre_ids": [
+        53,
+        27
+      ],
+      "backdrop_path": "\/o8u0NyEigCEaZHBdCYTRfXR8U4i.jpg",
+      "adult": false,
+      "overview": "Anos após a trágica morte de sua filha, um habilidoso artesão de bonecas e sua esposa decidem, por caridade, acolher em sua casa uma freira e dezenas de meninas desalojadas de um orfanato. Atormentado pelas lembranças traumáticas, o casal ainda precisa lidar com um amedrontador demônio do passado: Annabelle, criação do artesão.",
+      "release_date": "2017-08-17"
+    },
+    {
+      "vote_count": 127,
+      "id": 343668,
+      "video": false,
+      "vote_average": 7.6,
+      "title": "Kingsman: O Círculo Dourado",
+      "popularity": 181.111484,
+      "poster_path": "\/1jmfBgrBF8oIIAUd7pEydKmqwyK.jpg",
+      "original_language": "en",
+      "original_title": "Kingsman: The Golden Circle",
+      "genre_ids": [
+        28,
+        12,
+        35
+      ],
+      "backdrop_path": "\/8eQrIUKFh1Sbpd5r3x2ZWlzqFsr.jpg",
+      "adult": false,
+      "overview": "Um grandioso ataque destrói o quartel-general Kingsman, obrigando Eggsy (Taron Egerton), Merlin (Mark Strong) e cia a unirem forças com o equivalente estadunidense da agência, os Statesman. Britânicos e norte-americanos ignoram as diferenças em defesa do mundo, ameaçado pelos planos da vilã Poppy (Julianne Moore).",
+      "release_date": "2017-09-28"
+    },
+    {
+      "vote_count": 201,
+      "id": 381283,
+      "video": false,
+      "vote_average": 6.3,
+      "title": "mãe!",
+      "popularity": 127.233359,
+      "poster_path": "\/qL3MVLUepm3cD5h81u3T7NYCdRp.jpg",
+      "original_language": "en",
+      "original_title": "mother!",
+      "genre_ids": [
+        18,
+        27
+      ],
+      "backdrop_path": "\/rTi26DGOfFRAp7NMwzlvhO9UMm1.jpg",
+      "adult": false,
+      "overview": "Um casal tem o relacionamento testado quando pessoas não convidadas surgem em sua residência acabando com a tranquilidade reinante.",
+      "release_date": "2017-09-21"
+    },
+    {
+      "vote_count": 265,
+      "id": 339692,
+      "video": false,
+      "vote_average": 6.9,
+      "title": "Shot Caller",
+      "popularity": 107.087122,
+      "poster_path": "\/qLmLz2wtyYvmW8Ult3l2ngOnW8v.jpg",
+      "original_language": "en",
+      "original_title": "Shot Caller",
+      "genre_ids": [
+        18,
+        80,
+        53
+      ],
+      "backdrop_path": "\/lLj0Mm99G5EFDPOvIDpr222AJ1a.jpg",
+      "adult": false,
+      "overview": "Um gangster recém-saído da prisão é forçado por membros de seu grupo criminoso a orquestrar um grande crime contra uma gangue rival.",
+      "release_date": "2017-08-24"
+    },
+    {
+      "vote_count": 87,
+      "id": 415842,
+      "video": false,
+      "vote_average": 5,
+      "title": "O Assassino: O Primeiro Alvo",
+      "popularity": 100.958334,
+      "poster_path": "\/jOrFtYYr4bcrITauQwutMvES3pB.jpg",
+      "original_language": "en",
+      "original_title": "American Assassin",
+      "genre_ids": [
+        28,
+        53
+      ],
+      "backdrop_path": "\/puKZWmBIpuEMwGCn2hZkublG1rO.jpg",
+      "adult": false,
+      "overview": "Stan Hurley (Michael Keaton), veterano da Guerra Fria, recebe sua tarefa mais complexa enquanto agente de treinamento da CIA, quando o seu superior ordena que Hurley treine um ex-soldado das forças especiais (Dylan O'Brien), cujo estado psicológico está devastado após a morte de sua noiva.",
+      "release_date": "2017-09-21"
+    },
+    {
+      "vote_count": 170,
+      "id": 337170,
+      "video": false,
+      "vote_average": 6.2,
+      "title": "Feito na América",
+      "popularity": 57.441185,
+      "poster_path": "\/8xova028IF34Ryv89iLA6qZKxIa.jpg",
+      "original_language": "en",
+      "original_title": "American Made",
+      "genre_ids": [
+        28,
+        80,
+        53
+      ],
+      "backdrop_path": "\/jcKzxRGYiXuS7ctTHLdw9wH8d7V.jpg",
+      "adult": false,
+      "overview": "Barry Seal (Tom Cruise) é um piloto que trafica drogas e armas para o mítico cartel de Medellín e, recrutado pela CIA, torna-se agente duplo.",
+      "release_date": "2017-09-14"
+    },
+    {
+      "vote_count": 605,
+      "id": 353491,
+      "video": false,
+      "vote_average": 5.6,
+      "title": "A Torre Negra",
+      "popularity": 46.886599,
+      "poster_path": "\/aJ71RfhwvnvmXPWJRJDLbtaJwBH.jpg",
+      "original_language": "en",
+      "original_title": "The Dark Tower",
+      "genre_ids": [
+        28,
+        37,
+        878,
+        14,
+        27
+      ],
+      "backdrop_path": "\/2n7Zn6WxJ76ccOwnuQHuhSFMbqt.jpg",
+      "adult": false,
+      "overview": "Um pistoleiro chamado Roland Deschain (Idris Elba) percorre o mundo em busca da famosa Torre Negra, prédio mágico que está prestes a desaparecer. Essa busca envolve uma intensa perseguição ao poderoso Homem de Preto (Matthew McConaughey), passagens entre tempos diferentes, encontros intensos e confusões entre o real e o imaginário. Baseado na obra literária homônima de Stephen King.",
+      "release_date": "2017-08-24"
+    },
+    {
+      "vote_count": 188,
+      "id": 373569,
+      "video": false,
+      "vote_average": 5.2,
+      "title": "Viagem das Loucas",
+      "popularity": 30.748122,
+      "poster_path": "\/3PcpS5mKPQZZsi2kY9Iu8tNF4wR.jpg",
+      "original_language": "en",
+      "original_title": "Snatched",
+      "genre_ids": [
+        28,
+        35
+      ],
+      "backdrop_path": "\/rjMvrWdC1Dc3jW2Q8ymZTSPCV60.jpg",
+      "adult": false,
+      "overview": "Após levar um pé na bunda, uma mulher (Amy Schumer) decide se recuperar, e de quebra reanimar a vida de sua mãe (Goldie Hawn), fazendo um passeio de férias em família pela América do Sul. No entanto, ao invés de relaxamento e diversão, elas se deparam com situações inesperadas que transformam a viagem em uma verdadeira catástrofe.",
+      "release_date": "2017-09-09"
+    },
+    {
+      "vote_count": 269,
+      "id": 378236,
+      "video": false,
+      "vote_average": 5.8,
+      "title": "Emoji: O Filme",
+      "popularity": 29.866959,
+      "poster_path": "\/uuNTb29qaJCCboCgQm2Up5UJS41.jpg",
+      "original_language": "en",
+      "original_title": "The Emoji Movie",
+      "genre_ids": [
+        35,
+        10751,
+        16
+      ],
+      "backdrop_path": "\/kTrgxhRSj2sun89bDbnGCPBiey6.jpg",
+      "adult": false,
+      "overview": "Textopolis é a cidade onde os Emojis favoritos dos usuários de smartphones vivem e trabalham. Lá, todos eles vivem em função de um sonho: serem usados nos textos dos humanos. Todos estão acostumados a ter somente uma expressão facial - com exceção de Gene, que nasceu com um bug em seu sistema, que o permite trocar de rosto através de um filtro especial. Determinado à se tornar um emoji normal como todos os outros, eles vai encarar uma jornada fantásticas através dos aplicativos de celular mais populares desta geração - e no meio do caminho, claro, fazer novos amigos.",
+      "release_date": "2017-08-31"
+    },
+    {
+      "vote_count": 6,
+      "id": 274862,
+      "video": false,
+      "vote_average": 6.8,
+      "title": "LEGO Ninjago: O Filme",
+      "popularity": 28.174143,
+      "poster_path": "\/50WcZ9opuDKfit4LRubngzLqTPK.jpg",
+      "original_language": "en",
+      "original_title": "The LEGO Ninjago Movie",
+      "genre_ids": [
+        28,
+        16,
+        35
+      ],
+      "backdrop_path": "\/kmhsOIu536QmDnVzxYJHVxkSU7t.jpg",
+      "adult": false,
+      "overview": "A batalha por NINJAGO City põe em ação o jovem Mestre-Construtor Lloyd, também conhecido como Ninja Verde, ao lado de seus amigos, que são todos guerreiros ninja secretos. Guiados pelo Mestre Wu, que é tão rabugento quanto sábio, eles precisam derrotar o vil senhor de guerra, Lorde Garmadon, “O Pior Cara de Todos”, que também é pai de Lloyd. Com duelos de habilidades e poderes, de pai e filho, o confronto épico vai colocar em jogo o futuro deste corajoso, mas também indisciplinado grupo de ninjas modernos, que terão que aprender a deixar de lado seus egos e se unir para encontrar e libertar seus reais poderes de Spinjitzu.",
+      "release_date": "2017-09-28"
+    },
+    {
+      "vote_count": 224,
+      "id": 293768,
+      "video": false,
+      "vote_average": 5.9,
+      "title": "O Sequestro",
+      "popularity": 24.213693,
+      "poster_path": "\/kC5kEyCoclAeA8cQaVdKFuUnbCQ.jpg",
+      "original_language": "en",
+      "original_title": "Kidnap",
+      "genre_ids": [
+        18,
+        53
+      ],
+      "backdrop_path": "\/6fwuBSN56KtiHH19bLRIxGtfpC5.jpg",
+      "adult": false,
+      "overview": "Uma mulher (Halle Barry), que tem seu filho sequestrado em um parque, embarca numa corrida contra o tempo para salvá-lo.",
+      "release_date": "2017-09-14"
+    },
+    {
+      "vote_count": 137,
+      "id": 399019,
+      "video": false,
+      "vote_average": 5.9,
+      "title": "O Estranho que Nós Amamos",
+      "popularity": 16.332015,
+      "poster_path": "\/yCt9jWUFNpWLSiNpShZr9JFF9oD.jpg",
+      "original_language": "en",
+      "original_title": "The Beguiled",
+      "genre_ids": [
+        18,
+        37
+      ],
+      "backdrop_path": "\/v2puEkObft4jiYZKJ2Y8h94ATdD.jpg",
+      "adult": false,
+      "overview": "Um soldado da União, ferido em combate durante a Guerra de Secessão, acaba encontrando refúgio e um lugar para se curar dentro de um internato para mulheres localizado em território Confederado. Lá, o soldado se recupera, mas acaba conquistando o coração de algumas das mulheres no processo.",
+      "release_date": "2017-08-24"
+    },
+    {
+      "vote_count": 121,
+      "id": 354556,
+      "video": false,
+      "vote_average": 4.4,
+      "title": "Os Guardiões",
+      "popularity": 15.332597,
+      "poster_path": "\/bpgw1lUHfoyYRthlz07xqSppw3G.jpg",
+      "original_language": "ru",
+      "original_title": "Защитники",
+      "genre_ids": [
+        28,
+        14,
+        878
+      ],
+      "backdrop_path": "\/97EfqyIH06AqZldcedkB1y4mKN0.jpg",
+      "adult": false,
+      "overview": "Em plena Guerra Fria, uma organização secreta chamada \"Patriota\" recrutou um grupo de super-heróis russos, modificando o DNA de quatro indivíduos, com o objetivo de defender o país de ameaças sobrenaturais. Arsus, Khan, Ler e Xenia representam os diferentes povos que compõem a União Soviética, e mantêm suas identidades bem guardadas para, também, não expor aqueles que têm a missão de proteger.",
+      "release_date": "2017-09-28"
+    },
+    {
+      "vote_count": 61,
+      "id": 340101,
+      "video": false,
+      "vote_average": 7.2,
+      "title": "Sua Melhor História",
+      "popularity": 12.882362,
+      "poster_path": "\/ggGV4zxBLuQuJQ7aeUz9OlBar0x.jpg",
+      "original_language": "en",
+      "original_title": "Their Finest",
+      "genre_ids": [
+        10749,
+        10752,
+        35,
+        18
+      ],
+      "backdrop_path": "\/wDp5y5GiQ2PjThnxW3dYSLvLkUk.jpg",
+      "adult": false,
+      "overview": "Durante o \"London Blitz\" de 1940, a roteirista Catrin (Gemma Arterton) se esforça para encontrar sua voz em meio à guerra, enquanto ela e um elenco improvisado trabalham sob fogo para criar um filme para levantar os espíritos da nação e inspirar a América a participar da guerra.",
+      "release_date": "2017-09-07"
+    },
+    {
+      "vote_count": 0,
+      "id": 429542,
+      "video": false,
+      "vote_average": 0,
+      "title": "Abaixo a Gravidade",
+      "popularity": 12.295651,
+      "poster_path": "\/n0XKnXYWhBt98AcC40lT2dU1rdF.jpg",
+      "original_language": "pt",
+      "original_title": "Abaixo a Gravidade",
+      "genre_ids": [
+        18,
+        14
+      ],
+      "backdrop_path": null,
+      "adult": false,
+      "overview": "Vem de “SuperOutro” (1989), no grito de explosão do personagem que profere as palavras “Abaixo a Gravidade”, o título do novo filme do cineasta baiano Edgard Navarro, que traz agora, através de personagem vivido por Everaldo Pontes, o grito em forma de transcedência. O protagonista irá lutar contra toda mazela que aflige o ser humano, com sua compaixão e bondade.",
+      "release_date": "2017-09-24"
+    },
+    {
+      "vote_count": 106,
+      "id": 405775,
+      "video": false,
+      "vote_average": 6,
+      "title": "Na Mira do Atirador",
+      "popularity": 11.673666,
+      "poster_path": "\/jtUzmCmIPefVfOA8r3YY1kd4eXl.jpg",
+      "original_language": "en",
+      "original_title": "The Wall",
+      "genre_ids": [
+        18,
+        53,
+        10752
+      ],
+      "backdrop_path": "\/eDw3ydtUpCE541mBFnEnSHyYuaH.jpg",
+      "adult": false,
+      "overview": "Em pleno campo de batalha, dois soldados americanos descobrem que estão na mira de um atirador iraquiano. Eles não sabem onde o inimigo se esconde, nem podem se comunicar um com o outro, já que o adversário está interceptando a conversa dos americanos via rádio comunicador. Escondidos atrás de uma pequena parede de pedra, eles têm que encontrar uma maneira de sair vivos.",
+      "release_date": "2017-08-24"
+    },
+    {
+      "vote_count": 0,
+      "id": 472541,
+      "video": false,
+      "vote_average": 0,
+      "title": "Um Domingo de 53 Horas",
+      "popularity": 11.258919,
+      "poster_path": "\/eJR3qBJ2XUI3PfOjft56lKWpZat.jpg",
+      "original_language": "pt",
+      "original_title": "Um Domingo de 53 Horas",
+      "genre_ids": [
+        99
+      ],
+      "backdrop_path": null,
+      "adult": false,
+      "overview": "Com os votos favoráveis de 367 deputados, 137 contrários e 7 abstenções, o Plenário da Câmara dos Deputados aprovou o relatório pró-impeachment e autorizou o Senado Federal a julgar a presidente da República, Dilma Rousseff, por crime de responsabilidade. A sessão foi tensa, iniciada com princípio de tumulto. Cada voto dos 511 deputados – estavam ausentes apenas 2 - foi pontuado com comemorações de cada lado. O voto de número 342, mínimo para garantir o julgamento pelo Senado, foi celebrado à exaustão pelos partidários do impeachment, que tiveram apoio de deputados de 22 partidos. Apenas PSOL, PT, e PCdoB não deram votos à favor do impedimento da presidente Dilma. A sessão de votação durou cerca 6 horas, mas todo o processo de discussão e votação do impeachment, iniciada na sexta (15) consumiu quase 53 horas, e se encerrou somente às 23h50 do domingo (17).",
+      "release_date": "2017-09-25"
+    },
+    {
+      "vote_count": 165,
+      "id": 245913,
+      "video": false,
+      "vote_average": 7.2,
+      "title": "Pelé: O Nascimento de uma Lenda",
+      "popularity": 9.917808,
+      "poster_path": "\/7AQFHlPohPiAYKTd1C35Q61z0eD.jpg",
+      "original_language": "en",
+      "original_title": "Pelé: Birth of a Legend",
+      "genre_ids": [
+        18
+      ],
+      "backdrop_path": "\/mmKn7ECMiCUGFhIhoX2t9SYrTQn.jpg",
+      "adult": false,
+      "overview": "Vinte anos após os acontecimento Pelé – O Nascimento de uma Lenda também intitulado simplesmente Pelé, é um filme norte-americano que narra a carreira do jogador de futebol brasileiro Pelé. Inicialmente com o lançamento previsto para 2014 durante a Copa do Mundo de 2014, o filme teve de ser adiado e com nova previsão de estreia para 2015. O filme foi filmado no Rio de Janeiro e em Los Angeles e dirigido pelos irmãos americanos Michael e Jeff Zimbalis. O filme também conta com a produção de Brian Grazer, com vasta experiência na transformação de histórias reais em sucessos cinematográficos, como sucedeu com Frost\/Nixon, J. Edgar e Uma Mente Brilhante e com a trilha sonora composta por A. R. Rahman vencedor do Oscar pelo filme Slumdog Millionaire.",
+      "release_date": "2017-09-28"
+    }
+  ],
+  "page": 1,
+  "total_results": 105,
+  "dates": {
+    "maximum": "2017-09-30",
+    "minimum": "2017-08-12"
+  },
+  "total_pages": 6
+}
