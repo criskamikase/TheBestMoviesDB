@@ -1,6 +1,21 @@
 apply plugin: 'com.android.application'
 
 android {
+    signingConfigs{
+        debug{
+            keyAlias 'keyDebug'
+            keyPassword 'movie123'
+            storeFile file('../debug_keystore.jks')
+            storePassword 'movie123'
+        }
+        release{
+            keyAlias 'KeyRelease'
+            keyPassword 'movie123'
+            storeFile file('../release_keystore.jks')
+            storePassword 'movie123'
+        }
+    }
+
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
     defaultConfig {
@@ -15,6 +30,10 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+        debug{
+            signingConfig signingConfigs.debug
         }
     }
 }
