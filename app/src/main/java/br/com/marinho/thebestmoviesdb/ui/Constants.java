@@ -5,5 +5,5 @@ package br.com.marinho.thebestmoviesdb.ui;
  */
 
 public class Constants {
-    public static final String ID_MOVIE = "br.com.marinho.idMovie";
+    public static final String MOVIE = "br.com.marinho.movie";
 }

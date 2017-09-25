@@ -4,4 +4,8 @@
     <string name="home_progress_title">Aguarde</string>
     <string name="home_progress_message">Processando informação...</string>
     <string name="noNetworOfflinekMsg">Seu aplicativo está rodando em modo off-line.</string>
+    <string name="noNetworkMsg">Houve um problema ao conectar à internet. Por favor verifique sua conexão.</string>
+
+
+
 </resources>

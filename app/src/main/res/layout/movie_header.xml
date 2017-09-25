@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    >
+
+    <FrameLayout
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:id="@+id/frame_image">
+        <ImageView
+            android:id="@+id/image_poster"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:src="@mipmap/ic_launcher"
+            />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A Torre Negra"
+        android:layout_alignParentRight="true"
+        android:layout_toEndOf="@+id/frame_image"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary_text"
+        android:maxLines="2"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/text_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The Dark Tower"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/text_title"
+        android:layout_toEndOf="@+id/frame_image"
+        android:textSize="15sp"
+        android:textColor="@color/secondary_text"
+        android:maxLines="2"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/text_year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2017"
+        android:layout_below="@+id/text_subtitle"
+        android:layout_toEndOf="@+id/frame_image"
+        android:textSize="15sp"
+        android:textColor="@color/secondary_text"
+        android:textStyle="bold"
+        android:maxLines="1" />
+
+    <TextView
+        android:id="@+id/text_vote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nota: 7.6"
+        android:layout_toEndOf="@+id/frame_image"
+        android:layout_alignBottom="@+id/frame_image"
+        android:layout_below="@+id/text_year"
+        android:gravity="bottom"
+        android:textSize="15sp"
+        android:textColor="@color/primary_text"
+        android:maxLines="1"/>
+
+</RelativeLayout>

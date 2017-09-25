@@ -1,5 +1,8 @@
 package br.com.marinho.thebestmoviesdb.repository.Model;
 
+import android.os.Parcel;
+import android.os.Parcelable;
+
 import java.util.List;
 
 import br.com.marinho.thebestmoviesdb.repository.DTO.MovieDTO;
@@ -8,7 +11,7 @@ import br.com.marinho.thebestmoviesdb.repository.DTO.MovieDTO;
  * Created by Marinho on 21/09/17.
  */
 
-public class Movie {
+public class Movie implements Parcelable{
     private String posterPath;
 
     private boolean adult;
@@ -31,6 +34,20 @@ public class Movie {
 
     private double voteAverage;
 
+    public Movie(Movie movie) {
+        this.posterPath = movie.getPosterPath();
+        this.adult = movie.isAdult();
+        this.overview = movie.getOverview();
+        this.releaseDate = movie.getReleaseDate();
+        this.id = movie.getId();
+        this.originalTitle = movie.getOriginalTitle();
+        this.originalLanguage = movie.getOriginalLanguage();
+        this.title = movie.getTitle();
+        this.popularity = movie.getPopularity();
+        this.voteCount = movie.getVoteCount();
+        this.voteAverage = movie.getVoteAverage();
+    }
+
     public Movie(MovieDTO md) {
         this.posterPath = md.getPosterPath();
         this.adult = md.isAdult();
@@ -43,6 +60,54 @@ public class Movie {
         this.popularity = md.getPopularity().doubleValue();
         this.voteCount = md.getVoteCount();
         this.voteAverage = md.getVoteAverage().doubleValue();
+    }
+
+    public Movie(Parcel in) {
+        this.posterPath = in.readString();
+        this.adult = in.readByte() != 0;
+        this.overview = in.readString();
+        this.releaseDate = in.readString();
+        this.id = in.readInt();
+        this.originalTitle = in.readString();
+        this.originalLanguage = in.readString();
+        this.title = in.readString();
+        this.popularity = in.readDouble();
+        this.voteCount = in.readInt();
+        this.voteAverage = in.readDouble();
+    }
+
+    @Override
+    public void writeToParcel(Parcel dest, int i) {
+        dest.writeString(posterPath);
+        dest.writeByte((byte)(adult ? 1 : 0));
+        dest.writeString(overview);
+        dest.writeString(releaseDate);
+        dest.writeInt(id);
+        dest.writeString(originalTitle);
+        dest.writeString(originalLanguage);
+        dest.writeString(title);
+        dest.writeDouble(popularity);
+        dest.writeInt(voteCount);
+        dest.writeDouble(voteAverage);
+
+    }
+
+    public static final Parcelable.Creator<Movie> CREATOR = new Parcelable.Creator<Movie>() {
+
+        @Override
+        public Movie createFromParcel(Parcel source) {
+            return new Movie(source);
+        }
+
+        @Override
+        public Movie[] newArray(int size) {
+            return new Movie[size];
+        }
+    };
+
+    @Override
+    public int describeContents() {
+        return 0;
     }
 
     public String getPosterPath() {

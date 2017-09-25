@@ -13,77 +13,8 @@
         app:cardElevation="10dp"
         >
 
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="10dp">
-            
-            <FrameLayout
-                android:layout_width="100dp"
-                android:layout_height="150dp"
-                android:id="@+id/frame_image">
-                <ImageView
-                    android:id="@+id/image_poster"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="left|top"
-                    android:src="@mipmap/ic_launcher"
-                    />
-            </FrameLayout>
+        <include layout="@layout/movie_header"></include>
 
-            <TextView
-                android:id="@+id/text_title"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="A Torre Negra"
-                android:layout_alignParentRight="true"
-                android:layout_toEndOf="@+id/frame_image"
-                android:textSize="22sp"
-                android:textStyle="bold"
-                android:textColor="@color/primary_text"
-                android:maxLines="1"
-                android:layout_marginBottom="10dp"/>
-
-            <TextView
-                android:id="@+id/text_subtitle"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="The Dark Tower"
-                android:layout_alignParentRight="true"
-                android:layout_below="@+id/text_title"
-                android:layout_toEndOf="@+id/frame_image"
-                android:textSize="15sp"
-                android:textColor="@color/secondary_text"
-                android:maxLines="1"
-                android:layout_marginBottom="10dp"/>
-
-            <TextView
-                android:id="@+id/text_year"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="2017"
-                android:layout_below="@+id/text_subtitle"
-                android:layout_toEndOf="@+id/frame_image"
-                android:textSize="15sp"
-                android:textColor="@color/secondary_text"
-                android:textStyle="bold"
-                android:maxLines="1" />
-
-            <TextView
-                android:id="@+id/text_vote"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Nota: 7.6"
-                android:layout_toEndOf="@+id/frame_image"
-                android:layout_alignBottom="@+id/frame_image"
-                android:textSize="15sp"
-                android:textColor="@color/primary_text"
-                android:maxLines="1"/>
-
-
-
-
-        </RelativeLayout>
 
     </android.support.v7.widget.CardView>
 

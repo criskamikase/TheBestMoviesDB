@@ -16,7 +16,7 @@ public class APISettings {
 
     public static final String API_REGION_KEY = "BR";
 
-    public static final String API_MERGE_KEY = "append_to_response";
+    public static final String API_CREDITS_KEY = "credits";
 
     public static final String API_BASE_IMAGE = "https://image.tmdb.org/t/p/";
 

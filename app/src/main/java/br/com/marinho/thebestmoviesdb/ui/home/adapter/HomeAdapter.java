@@ -1,5 +1,6 @@
 package br.com.marinho.thebestmoviesdb.ui.home.adapter;
 
+import android.content.Context;
 import android.content.Intent;
 import android.support.design.widget.Snackbar;
 import android.support.v7.widget.RecyclerView;
@@ -20,6 +21,7 @@ import br.com.marinho.thebestmoviesdb.infra.DeviceHelper;
 import br.com.marinho.thebestmoviesdb.repository.Model.Movie;
 import br.com.marinho.thebestmoviesdb.repository.Util.FormatStringUtil;
 import br.com.marinho.thebestmoviesdb.ui.Constants;
+import br.com.marinho.thebestmoviesdb.ui.movieDetail.MovieDetailActivity;
 
 /**
  * Created by Marinho on 24/09/17.
@@ -29,10 +31,12 @@ public class HomeAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>{
 
     private List<Movie> movieList;
     private View parentView;
+    private Context context;
 
-    public HomeAdapter(ArrayList<Movie> movieList, final  View parentView) {
+    public HomeAdapter(ArrayList<Movie> movieList, final  View parentView, Context activityContext) {
         this.movieList = movieList;
         this.parentView = parentView;
+        this.context = activityContext;
     }
 
     public static class ViewHolderMovie extends RecyclerView.ViewHolder {
@@ -80,15 +84,15 @@ public class HomeAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>{
         holderMovie.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                if(DeviceHelper.isNetworkAvailable(App.getContext())){
-//                    Intent intent = new Intent(App.getContext(), MovieDetailActivity.class);
-//                    intent.putExtra(Constants.ID_MOVIE, movie.getId());
-//                    App.getContext().startActivity(intent);
-//                }else{
-//                    Snackbar.make(parentView,
-//                            App.getContext().getString(R.string.noNetworOfflinekMsg),
-//                            Snackbar.LENGTH_LONG).show();
-//                }
+                if(DeviceHelper.isNetworkAvailable(App.getContext())){
+                    Intent intent = new Intent(App.getContext(), MovieDetailActivity.class);
+                    intent.putExtra(Constants.MOVIE, movie);
+                    context.startActivity(intent);
+                }else{
+                    Snackbar.make(parentView,
+                            App.getContext().getString(R.string.noNetworOfflinekMsg),
+                            Snackbar.LENGTH_LONG).show();
+                }
                 Snackbar.make(parentView,
                             "Clicado filme: " + movie.getTitle(),
                             Snackbar.LENGTH_SHORT).show();

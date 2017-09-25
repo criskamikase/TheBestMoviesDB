@@ -144,14 +144,14 @@ public class HomeActivity extends AppCompatActivity implements IHomeView{
                 position = listMovie.size();
                 listMovie.addAll(position, movieList);
 
-                adapterMovie = new HomeAdapter(listMovie, parentView);
+                adapterMovie = new HomeAdapter(listMovie, parentView, this);
                 recyclerViewMovie.setAdapter(adapterMovie);
                 adapterMovie.notifyDataSetChanged();
                 layoutManager.scrollToPosition(position);
             } else {
                 listMovie.addAll(position, movieList);
 
-                adapterMovie = new HomeAdapter(listMovie, parentView);
+                adapterMovie = new HomeAdapter(listMovie, parentView, this);
                 recyclerViewMovie.setAdapter(adapterMovie);
             }
         } else {
